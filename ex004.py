@@ -1,14 +1,12 @@
-ordem de precedência: 'matematica'
-1 resolver ()
-2** numero elevado
-3 * / // % o que vier primeiro você resolve
-4 + -
+# Ordem de precedência: 'Matemática'
+# 1 Resolve tudo que está dentro de parênteses primeiro ()
+# 2 ** Símbolo de exponenciação. (Elevar o número)
+# 3 * / // % o que vier primeiro você resolve
+# 4 + -
 
-exemplos:
-5+3*2==11
+# Exemplos:
+# 5+3*2==11
 
-3*5+4**2==31
+# 3*5+4**2==31
 
-3x(5+4)**2==243
-
-
+# 3x(5+4)**2==243
