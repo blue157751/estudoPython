@@ -1,48 +1,48 @@
-# Program make a simple calculator
+# Fazendo uma simples calculadora
 
-# This function adds two numbers
-def add(x, y):
+# Essa função soma dois números
+def soma(x, y):
     return x + y
 
-# This function subtracts two numbers
-def subtract(x, y):
+# Essa função subtrai dois números
+def subtrair(x, y):
     return x - y
 
-# This function multiplies two numbers
-def multiply(x, y):
+# Essa função multiplica dois números
+def multiplicar(x, y):
     return x * y
 
-# This function divides two numbers
-def divide(x, y):
+# Essa função divide dois números
+def dividir(x, y):
     return x / y
 
 
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("Selecione a operação.")
+print("1.Somar")
+print("2.Subtrair")
+print("3.Multiplicar")
+print("4.Dividir")
 
 while True:
-    # Take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    # Pega o input do usuário
+    choice = input("Digite a sua escolha(1/2/3/4): ")
 
-    # Check if choice is one of the four options
+    # Checa se a escolha está entre as 4 opções
     if choice in ('1', '2', '3', '4'):
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
+        num1 = float(input("Digite o primeiro número: "))
+        num2 = float(input("Digite o segundo número: "))
 
         if choice == '1':
-            print(num1, "+", num2, "=", add(num1, num2))
+            print(num1, "+", num2, "=", soma(num1, num2))
 
         elif choice == '2':
-            print(num1, "-", num2, "=", subtract(num1, num2))
+            print(num1, "-", num2, "=", subtrair(num1, num2))
 
         elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
+            print(num1, "*", num2, "=", multiplicar(num1, num2))
 
         elif choice == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
+            print(num1, "/", num2, "=", dividir(num1, num2))
         break
     else:
-        print("Invalid Input")
+        print("Dado inválido")
